@@ -4,20 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ссылка на внутренние разделы страницы с якорными элементами</title>
+    <title>Вложение элемента привязки в абзац</title>
   </head>
   <body>
-    <!-- Измените внешнюю ссылку на внутреннюю, изменив hrefатрибут на #footerи текст с cat photosна Jump to Bottom.
-Удалите target="_blank"атрибут из тега привязки, так как это приводит к открытию связанного документа в новой вкладке окна.
-Затем добавьте idатрибут со значением footerк <footer>элементу внизу страницы. -->
+    <!-- Вложите существующий a элемент в новый p элемент. Не создавайте новый тег привязки. 
+			В новом абзаце должен быть текст с надписью View more cat photos, где cat photosссылка, а остальное — обычный текст. -->
 
     <h2>CatPhotoApp</h2>
     <main>
-      <a href="#footer">Jump to Bottom</a>
       <img
         src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
         alt="cat"
       />
+      <p>
+        View more
+        <a href="https://www.freecatphotoapp.com" target="_blank">cat photos</a>
+      </p>
       <p>
         Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching
         attack your ankles chase the red dot, hairball run catnip eat the grass
