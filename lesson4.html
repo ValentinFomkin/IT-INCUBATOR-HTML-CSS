@@ -4,21 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Сделайте мертвые ссылки, используя символ хэша</title>
+    <title>Превратите изображение в ссылку</title>
   </head>
   <body>
-    <!-- Текущее значение href атрибута — это ссылка, указывающая на " https://www.freecatphotoapp.com".
-			 Замените href значение атрибута на #, также известное как символ решетки, чтобы создать мертвую ссылку.-->
+    <!-- Поместите существующий элемент изображения в элемент a( якорь ).
+Сделав это, наведите курсор на свое изображение. 
+Обычный указатель вашего курсора должен стать указателем щелчка по ссылке. Фото теперь ссылка.-->
 
     <h2>CatPhotoApp</h2>
     <main>
-      <img
-        src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
-        alt="cat"
-      />
       <p>
         View more
-        <a href="#" target="_blank">cat photos</a>
+        <a href="#" target="_blank"
+          ><img
+            src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
+            alt="cat"
+        /></a>
       </p>
       <p>
         Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching
