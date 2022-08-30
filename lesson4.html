@@ -4,14 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ссылка на внешние страницы с якорными элементами</title>
+    <title>Ссылка на внутренние разделы страницы с якорными элементами</title>
   </head>
   <body>
-    <!-- Создайте a элемент, который ссылается https://www.freecatphotoapp.comи содержит «фотографии кошек» в качестве анкорного текста. -->
+    <!-- Измените внешнюю ссылку на внутреннюю, изменив hrefатрибут на #footerи текст с cat photosна Jump to Bottom.
+Удалите target="_blank"атрибут из тега привязки, так как это приводит к открытию связанного документа в новой вкладке окна.
+Затем добавьте idатрибут со значением footerк <footer>элементу внизу страницы. -->
 
     <h2>CatPhotoApp</h2>
     <main>
-      <a href="https://www.freecatphotoapp.com">cat photos</a>
+      <a href="#footer">Jump to Bottom</a>
       <img
         src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
         alt="cat"
@@ -27,5 +29,6 @@
         scratched.
       </p>
     </main>
+    <footer id="footer">Copyright Cat Photo App</footer>
   </body>
 </html>
