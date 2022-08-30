@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Вложение элемента привязки в абзац</title>
+    <title>Сделайте мертвые ссылки, используя символ хэша</title>
   </head>
   <body>
-    <!-- Вложите существующий a элемент в новый p элемент. Не создавайте новый тег привязки. 
-			В новом абзаце должен быть текст с надписью View more cat photos, где cat photosссылка, а остальное — обычный текст. -->
+    <!-- Текущее значение href атрибута — это ссылка, указывающая на " https://www.freecatphotoapp.com".
+			 Замените href значение атрибута на #, также известное как символ решетки, чтобы создать мертвую ссылку.-->
 
     <h2>CatPhotoApp</h2>
     <main>
@@ -18,7 +18,7 @@
       />
       <p>
         View more
-        <a href="https://www.freecatphotoapp.com" target="_blank">cat photos</a>
+        <a href="#" target="_blank">cat photos</a>
       </p>
       <p>
         Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching
