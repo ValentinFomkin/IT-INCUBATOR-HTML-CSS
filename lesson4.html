@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Используйте HTML5 для обязательного поля</title>
+    <title>Создайте набор радиокнопок</title>
   </head>
   <body>
     <!-- Сделайте свой текст inputполем required, чтобы ваш пользователь не мог отправить форму, не заполнив это поле. -->
@@ -35,6 +35,12 @@
       <form action="https://www.freecatphotoapp.com/submit-cat-photo">
         <input required type="text" placeholder="cat photo URL" />
         <button type="submit">Submit</button>
+        <label for="indoor">
+          <input type="radio" id="indoor" name="indoor-outdoor" /> indoor
+        </label>
+        <label for="outdoor">
+          <input type="radio" id="outdoor" name="indoor-outdoor" /> outdoor
+        </label>
       </form>
     </main>
     <footer id="footer">Copyright Cat Photo App</footer>
