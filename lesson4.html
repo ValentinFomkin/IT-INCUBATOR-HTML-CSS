@@ -4,11 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Создать элемент формы</title>
+    <title>Используйте HTML5 для обязательного поля</title>
   </head>
   <body>
-    <!-- Вложите существующий input элемент внутрь formэлемента и назначьте 
-			"https://www.freecatphotoapp.com/submit-cat-photo"его actionатрибуту form. -->
+    <!-- Сделайте свой текст inputполем required, чтобы ваш пользователь не мог отправить форму, не заполнив это поле. -->
 
     <h2>CatPhotoApp</h2>
     <h2>CatPhotoApp</h2>
@@ -34,7 +33,7 @@
         <li>other cats</li>
       </ol>
       <form action="https://www.freecatphotoapp.com/submit-cat-photo">
-        <input type="text" placeholder="cat photo URL" />
+        <input required type="text" placeholder="cat photo URL" />
         <button type="submit">Submit</button>
       </form>
     </main>
