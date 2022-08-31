@@ -33,23 +33,48 @@
         <li>other cats</li>
       </ol>
       <form action="https://www.freecatphotoapp.com/submit-cat-photo">
-        <input required type="text" placeholder="cat photo URL" />
+        <label for="indoor"
+          ><input
+            value="indoor"
+            id="indoor"
+            type="radio"
+            name="indoor-outdoor"
+          />
+          Indoor</label
+        >
+        <label for="outdoor"
+          ><input
+            value="outdoor"
+            id="outdoor"
+            type="radio"
+            name="indoor-outdoor"
+          />
+          Outdoor</label
+        ><br />
+        <label for="loving"
+          ><input
+            value="loving"
+            id="loving"
+            type="checkbox"
+            name="personality"
+          />
+          Loving</label
+        >
+        <label for="lazy"
+          ><input value="lazy" id="lazy" type="checkbox" name="personality" />
+          Lazy</label
+        >
+        <label for="energetic"
+          ><input
+            value="energetic"
+            id="energetic"
+            type="checkbox"
+            name="personality"
+          />
+          Energetic</label
+        ><br />
+        <input type="text" placeholder="cat photo URL" required />
         <button type="submit">Submit</button>
-        <label for="indoor">
-          <input type="radio" id="indoor" name="indoor-outdoor" /> indoor
-        </label>
-        <label for="outdoor">
-          <input type="radio" id="outdoor" name="indoor-outdoor" /> outdoor
-        </label>
-        <label for="war"
-          ><input type="checkbox" name="personality" id="war"
-        /></label>
-        <label for="raw"
-          ><input type="checkbox" name="personality" id="raw"
-        /></label>
-        <label for="awr"
-          ><input type="checkbox" name="personality" id="awr"
-        /></label>
       </form>
     </main>
     <footer id="footer">Copyright Cat Photo App</footer>
