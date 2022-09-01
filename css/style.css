@@ -6,13 +6,15 @@ div {
 
 .first {
   background-color: red;
-  position: absolute;
+  position: relative;
   z-index: 2;
+  margin: auto;
 }
 .second {
   background-color: blue;
-  position: absolute;
+  position: relative;
   left: 40px;
   top: 50px;
   z-index: 1;
+  margin: auto;
 }
