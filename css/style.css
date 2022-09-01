@@ -1,4 +1,21 @@
-h2 {
-  position: relative;
-  top: 15px;
+body {
+  min-height: 150vh;
+}
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #767676;
+}
+nav ul {
+  margin: 0px;
+  padding: 5px 0px 5px 30px;
+}
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+a {
+  text-decoration: none;
 }
