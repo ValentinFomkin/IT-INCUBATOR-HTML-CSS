@@ -1,21 +1,18 @@
-body {
-  min-height: 150vh;
+div {
+  width: 60%;
+  height: 200px;
+  margin-top: 20px;
 }
-#navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: #767676;
+
+.first {
+  background-color: red;
+  position: absolute;
+  z-index: 2;
 }
-nav ul {
-  margin: 0px;
-  padding: 5px 0px 5px 30px;
-}
-nav li {
-  display: inline;
-  margin-right: 20px;
-}
-a {
-  text-decoration: none;
+.second {
+  background-color: blue;
+  position: absolute;
+  left: 40px;
+  top: 50px;
+  z-index: 1;
 }
